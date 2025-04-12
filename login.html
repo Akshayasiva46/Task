@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SBI Login Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .top-bar {
+      background-color: #0066cc;
+      color: white;
+      font-size: 16px;
+      padding: 10px 0;
+      text-align: center;
+    }
+    .login-section {
+      padding: 40px 20px;
+    }
+    .login-box {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .login-title {
+      font-weight: 600;
+    }
+    .sbi-btn {
+      background-color: #212529;
+      color: white;
+      border-radius: 4px;
+    }
+    .sbi-btn:hover {
+      background-color: #0d6efd;
+    }
+    .icon-label {
+      font-size: 0.85rem;
+    }
+    .divider {
+      border-left: 2px solid #dee2e6;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="d-flex justify-content-between align-items-center px-4 py-2 border-bottom">
+    <img src="/SBI-Logo.jpg" alt="SBI Logo" width="120">
+    <img src="/SBI-Logo.png" alt="SBI Online" width="140">
+  </div>
+
+  <!-- Top Menu -->
+  <div class="top-bar">
+    Services &nbsp; | &nbsp; FAQ &nbsp; | &nbsp; Corporate Website &nbsp; | &nbsp; SBlePay Lite &nbsp; | &nbsp; Donations &nbsp; | &nbsp; SB Collect &nbsp; | &nbsp; Videos
+  </div>
+
+  <!-- Warning Text -->
+  <div class="text-center text-danger fw-bold py-2 border-bottom">
+    SBI never asks for confidential info like PIN/OTP. Please do not share personal details with anyone.
+  </div>
+
+  <!-- Login Section -->
+  <div class="container login-section">
+    <div class="row g-4">
+      <!-- Personal Banking -->
+      <div class="col-md-6">
+        <div class="login-box text-center">
+          <i class="fa-solid fa-user-circle fa-2x mb-3"></i>
+          <h5 class="login-title">PERSONAL BANKING</h5>
+          <button class="btn sbi-btn my-3 px-4">LOGIN <i class="fa-solid fa-arrow-right ms-1"></i></button>
+          <div class="d-flex justify-content-around mt-3">
+            <div class="text-center">
+              <i class="fa-solid fa-user-plus"></i><br><span class="icon-label">New User</span>
+            </div>
+            <div class="text-center">
+              <i class="fa-regular fa-circle-question"></i><br><span class="icon-label">How Do I</span>
+            </div>
+            <div class="text-center">
+              <i class="fa-solid fa-headphones-simple"></i><br><span class="icon-label">Customer Care</span>
+            </div>
+            <div class="text-center">
+              <i class="fa-solid fa-lock"></i><br><span class="icon-label">Lock/Unlock</span>
+            </div>
+          </div>
+          <p class="mt-3 small text-muted">SBI's internet banking portal offers control over all your banking needs online.</p>
+        </div>
+      </div>
+
+      <!-- Corporate Banking -->
+      <div class="col-md-6">
+        <div class="login-box text-center">
+          <img src="images/yono_business.png" alt="Yono Business SBI" width="150" class="mb-3">
+          <h5 class="login-title">CORPORATE BANKING</h5>
+          <div class="d-flex justify-content-center my-3">
+            <select class="form-select w-50 me-2">
+              <option>yono BUSINESS</option>
+              <option>Corporate</option>
+              <option>Saral</option>
+              <option>Supply Chain</option>
+            </select>
+            <button class="btn sbi-btn">LOGIN</button>
+          </div>
+          <div class="d-flex justify-content-around mt-3">
+            <div class="text-center">
+              <i class="fa-solid fa-user-gear"></i><br><span class="icon-label">Corporate Reg</span>
+            </div>
+            <div class="text-center">
+              <i class="fa-regular fa-circle-question"></i><br><span class="icon-label">How Do I</span>
+            </div>
+            <div class="text-center">
+              <i class="fa-solid fa-headphones-simple"></i><br><span class="icon-label">Customer Care</span>
+            </div>
+          </div>
+          <p class="mt-3 small text-muted">Manage business banking needs with our intuitive platforms.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- More Useful Links -->
+    <div class="text-center mt-4">
+      <button class="btn btn-outline-primary"><i class="fa-solid fa-caret-down"></i> More Useful Links</button>
+    </div>
+  </div>
+
+</body>
+</html>
