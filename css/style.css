@@ -1,0 +1,241 @@
+/* General Body & Typography */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header with Logo */
+header, .sbi-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Top Horizontal Blue Info Bar */
+.top-bar {
+  background-color: #0066cc;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Security Alert Bar */
+.alert-bar {
+  text-align: center;
+  font-weight: bold;
+  color: #dc3545;
+  background: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Navigation Dropdown Menu */
+#navigation {
+  background-color: #0b3a75;
+}
+
+#navigation .navbar-nav > li > a {
+  color: white !important;
+  padding: 12px 15px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+}
+
+#navigation .navbar-nav > li > a:hover,
+#navigation .navbar-nav > li:hover > a {
+  background-color: #01498c;
+}
+
+#navigation .dropdown-menu {
+  background-color: #003366;
+  border: none;
+  padding: 0;
+  margin-top: 0;
+  border-radius: 0;
+}
+
+#navigation .dropdown-menu a {
+  color: white;
+  padding: 10px 15px;
+  display: block;
+}
+
+#navigation .dropdown-menu a:hover {
+  background-color: #032b50;
+}
+
+/* Nav Toggle Icon Bar for Mobile */
+.btn-menu .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  margin: 4px auto;
+  background-color: white;
+}
+
+/* === ✅ Updated Login Section === */
+.login-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.login-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.sbi-btn {
+  font-weight: 500;
+  background-color: #002f6c;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.sbi-btn:hover {
+  background-color: #0144a0;
+  color: #fff;
+}
+
+.icon-label {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.divider {
+  border-left: 2px solid #dee2e6;
+}
+
+/* Footer Links (Optional) */
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.footer a {
+  color: #003366;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .login-box {
+    margin-bottom: 30px;
+  }
+  #navigation .navbar-nav {
+    flex-direction: column;
+  }
+  .navbar-collapse {
+    padding-left: 10px;
+  }
+}
+
+/* Horizontal Nav Buttons */
+.nav-bar {
+  background-color: #083c74;
+  padding: 0;
+  overflow-x: auto;
+}
+
+.nav-item {
+  color: white;
+  padding: 10px 16px;
+  border-right: 1px solid #0a4d8c;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.nav-item:hover {
+  background-color: #0056b3;
+}
+
+.sub-script {
+  font-size: 0.7em;
+  vertical-align: sub;
+}
+
+.badge-new {
+  background-color: transparent;
+  color: #ffc107;
+  font-weight: bold;
+  font-size: 0.75em;
+  margin-left: 5px;
+}
+
+.hindi-btn {
+  background-color: #15693c;
+  color: #ffff00;
+  font-weight: bold;
+  padding: 10px 12px;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.disclaimer-box {
+  background-color: #ffffff;
+  border-top: 1px solid #ccc;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.disclaimer-box p {
+  margin: 4px 0;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Color classes */
+.color-blue {
+  color: #0044cc;
+}
+
+.color-red {
+  color: rgb(128, 2, 2);
+}
+
+.color-green {
+  color: rgb(15, 73, 15);
+}
+
+.disclaimer-warning {
+  .icon-label {
+    font-size: 0.85rem;
+    margin-top: 4px;
+    display: block;
+  }
+  
+  img.personal-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  color: #0044cc;
+  cursor: default;
+}
